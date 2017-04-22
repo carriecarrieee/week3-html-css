@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Application Form</h1>
+    <div>
+    <h3>This is an application form for a job in tech. Please fill out the information below and click "Submit" by 9pm on Sunday, April 23.</h3>
+    </div>
+<!-- your html goes here 
+
+    Here, <br> would've been "cleaner", but during lab exercises, an instructor mentioned that <p></p> is preferred in the industry. -->
+    <form action="" method="POST">
+        <p>First Name: <input class="field" type="text" name="firstname"></p>
+        <p>Last Name: <input style="font-weight: bold;" class="field" type="text" name="lastname"></p>
+        <p>Salary Requirement: <input class="field" type="number" min="1" salary="salary"></p>
+        <p>Please select your role: <select class="field" name="job">
+            <option value="sfe">Software Engineer</option>
+            <option value="qa">QA Engineer</option>
+            <option value="pm">Product Manager</option>
+        </select></p>
+        <input class="field" type="submit">
+    </form>
+</body>
+</html>
