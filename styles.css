@@ -8,7 +8,8 @@ h1 {
     font-family: Lucida;
 }
 
-h3 {
+.intro {
+    border-style: double groove;
     text-align: center;
     color: #778899;
     font-weight: bold;
@@ -20,10 +21,10 @@ form {
     line-height: 200%;
 }
 
-.field {
-    background-color: yellow; 
+select {
+    height: 34px;
 }
 
-div {
-    border-style: double groove
+.field {
+    background-color: yellow; 
 }
